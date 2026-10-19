@@ -6,7 +6,6 @@
     <field name="model">helpdesk.department</field>
     <field name="arch" type="xml">
       <list editable="top">
-	<field name="building_id"/>
 	<field name="name"/>
       </list>
     </field>

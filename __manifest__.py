@@ -2,7 +2,7 @@
     "name": "Soporte técnico",
     "version": "19.0.1.0.0",
     "application": True,
-    "summary": "Documentación de equipos y problemas en los equipos.",
+    "summary": "Documentación de equipos y problemas en los mismos.",
     "depends": ["base"],
     "data": [
         # Security
@@ -23,6 +23,7 @@
         "data/helpdesk_machine_type_data.xml",
         "data/helpdesk_machine_brand_data.xml",
         "data/helpdesk_drop_reason_data.xml",
+        "data/helpdesk_building_data.xml",
         "data/ir_sequence_data.xml"
     ],
     "author": "Municipalidad de Chajari",

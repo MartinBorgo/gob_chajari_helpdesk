@@ -70,9 +70,8 @@ class HelpdeskMachine(models.Model):
         required=True
     )
     department_id = fields.Many2one(
-        string="Oficina",
+        string="Dependencia",
         comodel_name="helpdesk.department",
-        domain="[('building_id', '=', building_id)]",
         required=True
     )
     replacement_id = fields.Many2one(

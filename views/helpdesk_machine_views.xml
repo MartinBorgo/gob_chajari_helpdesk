@@ -62,7 +62,7 @@
 		    invisible="not replacement_id"
 		    icon="fa-exchange">
 	      <div class="o_stat_info">
-		<span class="text-primary fw-bold">Reemplazo</span>
+		<span>Reemplazo</span>
 	      </div>
 	    </button>
 	  </div>
